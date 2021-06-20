@@ -1,0 +1,8 @@
+TODO:
+  - Update mechanical structure
+
+  - Use ros to comlete tasks such as trajectory generation, visual localization, and reinforcement learning
+
+  - Building a communication protocol between host and microcontroller
+
+  - Write robot arm control programs based on different hardware control platforms
