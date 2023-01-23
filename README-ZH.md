@@ -31,12 +31,23 @@ LittleRA是一个多自由机械臂，它来源于我的课程设计，其原本
 
 ## Intelligence
 
-[TDDO](./TODO)
+[TODO](./TODO)
 
 ## Platform
 
-[TDDO](./TODO)
+[TODO](./TODO)
 
 ## 愿景
 
 大家玩得开心
+
+## 引用
+
+```
+@book{Corke17a, 
+Author={PeterI.Corke}, 
+Note={ISBN978-3-319-54413-7}, 
+Edition={Second}, 
+Publisher={Springer}, 
+Title={Robotics,Vision\&Control:FundamentalAlgorithmsin{MATLAB}}
+```

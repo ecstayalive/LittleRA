@@ -44,3 +44,13 @@ Among them, the Matlab Robotics Toolbox simulation architecture is illustrated a
 Wolfram Engine 12.2
 
 Robotics Toolbox for MATLAB                           Version 10.4    
+
+## Cite
+```
+@book{Corke17a, 
+Author={PeterI.Corke}, 
+Note={ISBN978-3-319-54413-7}, 
+Edition={Second}, 
+Publisher={Springer}, 
+Title={Robotics,Vision\&Control:FundamentalAlgorithmsin{MATLAB}}
+```

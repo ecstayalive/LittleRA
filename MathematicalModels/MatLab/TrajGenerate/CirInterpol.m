@@ -35,8 +35,6 @@ function point = CirInterpol(StartPoint, EndPoint, LeadPoint, degree, N)
     D3 = -((x3^2 - x2^2) + (y3^2 - y2^2) + (z3^2 - z2^2)) / 2;
     A = [A1, B1, C1; A2, B2, C2; A3, B3, C3];
     b = [-D1; -D2; -D3];
-    % 通过高斯主元消去法求得圆心
-    % C = GaussLie(3, A, b);
     % 通过矩阵逆运算求得圆心
     C = A^ - 1 * b;
     x0 = C(1); y0 = C(2); z0 = C(3);

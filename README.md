@@ -32,13 +32,24 @@ Here are some trajectory simulations
 
 ## Intelligence
 
-[TDDO](./TODO)
+[TODO](./TODO)
 
 ## Platform
 
-[TDDO](./TODO)
+[TODO](./TODO)
 
 ## Wishes
 
 Have fun, everybody.
+
+## Cite
+
+```
+@book{Corke17a, 
+Author={PeterI.Corke}, 
+Note={ISBN978-3-319-54413-7}, 
+Edition={Second}, 
+Publisher={Springer}, 
+Title={Robotics,Vision\&Control:FundamentalAlgorithmsin{MATLAB}}
+```
 

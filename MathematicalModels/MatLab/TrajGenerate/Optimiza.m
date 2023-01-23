@@ -30,18 +30,18 @@ function kernel = Optimiza(theta, degree, N)
             % 指定加速度
             psi = 16 * theta;
             % 指定加速时间
-            t_b = 0.5 - sqrt(psi^2 - 4 * psi * theta) / (2 * psi);
+            t_b = 0.5 - sqrt(psi ^ 2 - 4 * psi * theta) / (2 * psi);
 
             for i = 1:N
                 % 时刻t
                 t = (i - 1) / (N - 1);
 
                 if (t < t_b)
-                    kernel(i) = psi * t^2/2;
+                    kernel(i) = psi * t ^ 2/2;
                 elseif (t >= t_b && t <= 1 - t_b)
-                    kernel(i) = psi * t_b * t - psi * t_b^2/2;
+                    kernel(i) = psi * t_b * t - psi * t_b ^ 2/2;
                 else
-                    kernel(i) = theta - psi * (1 - t)^2/2;
+                    kernel(i) = theta - psi * (1 - t) ^ 2/2;
                 end
 
             end
@@ -53,7 +53,7 @@ function kernel = Optimiza(theta, degree, N)
             for i = 1:N
                 % 时刻t
                 t = (i - 1) / (N - 1);
-                kernel(i) = 3 * theta * t^2 - 2 * theta * t^3;
+                kernel(i) = 3 * theta * t ^ 2 - 2 * theta * t ^ 3;
             end
 
         case 3
@@ -61,7 +61,7 @@ function kernel = Optimiza(theta, degree, N)
             for i = 1:N
                 % 时刻t
                 t = (i - 1) / (N - 1);
-                kernel(i) = 10 * theta * t^3 - 15 * theta * t^4 + 6 * theta * t^5;
+                kernel(i) = 10 * theta * t ^ 3 - 15 * theta * t ^ 4 + 6 * theta * t ^ 5;
             end
 
     end

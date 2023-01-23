@@ -47,8 +47,8 @@ function [qd, qdd] = Diff(q, kind, degree, N)
     qdd(1, :) = qdd(2, :);
     % 如果是五次多项式优化按模型画图
     if (degree == 3 && kind == "unoriginal")
-        qdd(1, :) =  zeros(1, length(q(1, :)));
-        qdd(length(q(:, 1)), :) =  zeros(1, length(q(1, :)));
+        qdd(1, :) = zeros(1, length(q(1, :)));
+        qdd(length(q(:, 1)), :) = zeros(1, length(q(1, :)));
     end
 
 end
