@@ -42,7 +42,7 @@ Here are some trajectory simulations
 
 Have fun, everybody.
 
-## Cite
+## References
 
 ```
 @book{Corke17a, 
